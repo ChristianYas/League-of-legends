@@ -1,0 +1,57 @@
+.card{
+    width: 292px;
+    height: 353px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.borde{
+    position: absolute;
+    background-color: white;
+    top: -17px;
+    right: -25px;
+    height: 40px;
+    width: 40px;
+    transform: rotate(50deg);
+    transition: .2s ease-in-out;
+}
+
+.card img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.card p{
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+    z-index: 10;
+    color: white;
+    font-size: 22px;
+    background-color: #061c25;
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 30px;
+    padding: 15px;
+}
+
+.card:hover .borde{
+    background-color: rgba(245, 222, 179, 0);
+}
+
+@media (max-width: 415px) {
+    .card{
+        width: 270px;
+        height: 321px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    .borde{
+        border: none;
+    }
+}

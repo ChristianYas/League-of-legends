@@ -1,0 +1,148 @@
+.container-nav{
+    border: 1px solid #85808042;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.container-nav img{
+    position: absolute;
+    top: 27%;
+    left: 3%;
+    width: 1.5%;
+}
+
+.type,.option{
+    border-left: 1px solid #85808042;
+}
+
+.search{
+    width: 10%;
+}
+
+.search input{
+    width: 50%;
+    border: none;
+    position: relative;
+    top: 24%;
+    right: -35%;
+}
+
+.search input:focus{
+    outline: none;
+}
+
+.option{
+    width: 10%;
+}
+
+.container-nav ol{
+    width: 100%;
+    display: flex;  
+    margin-left: -5%;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.type{
+    width: 80%;
+    font-weight: 600;
+    color: #cacaca;
+    overflow: hidden;
+}
+
+.type li small{
+    cursor: pointer;
+}
+
+.type ol li small:hover{
+    color: #D0A85C !important;
+}
+
+.border2-top, .border2-bottom{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    background-color: white;
+    transform: rotate(50deg);
+}
+
+.border2-top{
+    left: -10px;
+    top: -10px;
+    border-right: 1px solid #85808042;
+    transform: rotate(45deg);
+}
+
+.border2-bottom{
+    top: 48px;
+    right: -11px;
+    border-left: 1px solid #85808042;
+}
+
+select{
+    position: relative;
+    top: 24%;
+    left: 15%;
+    border: none;
+}
+
+select:focus{
+    outline: none;
+}
+
+.option-none{
+    display: none;
+}
+
+@media (max-width: 415px) {
+    .container-nav{
+        height: 40px;
+    }
+
+    .search{
+        width: 39%;
+    }
+
+    .search input{
+        width: 60%;
+        right: 8px;
+    }
+
+    .type{
+        width: 60%;
+    }
+
+    .container-nav ol{
+        width: 30%;
+        flex-direction: column;
+        position: absolute;
+        top: 28px;
+        left: 143px;
+        z-index: 20;
+        background-color: #000;
+        display: none;
+    }  
+
+    .container-nav img{
+        width: 5%;
+        left: 20%;
+    }
+
+    .option{
+        width: 29%;
+    }
+
+    .option-none{
+        width: 100%;
+        display: block;
+        position: relative;
+        top: 10px;
+        text-align: center;
+    }
+
+    .option-none:hover{
+        color: #D0A85C;   
+    }
+}

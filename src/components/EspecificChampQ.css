@@ -1,0 +1,243 @@
+@media (max-width: 415px) {
+    .principal-img{
+        position: relative;
+        top: -50px;
+        left: -66px;
+        width: 400px;
+    }   
+
+    .champ{
+        top: -290px;
+    }
+
+    .champ-des{
+        font-size: 20px;
+    }
+
+    .champ-name{
+        font-size: 35px;
+    }
+
+    .about-champ{
+        flex-direction: column;
+        left: -100px;
+        height: 400px;
+        justify-content: space-between;
+        align-items: flex-start;
+        left: -88px;
+    }
+
+    .line{
+        top: 38%;
+        left: 7%;
+        width: 290px;
+        transform: rotate(0deg);
+    }
+
+    .rol{
+        width: 50%;
+        top: 10%;
+        left: 20%;
+    }
+
+    .lore{
+        width: 90%;
+        position: absolute;
+        left: 22px;
+        bottom: 48px;
+    }
+
+    .return{
+        top: 20px;
+        right: 5px;
+        z-index: 30;
+    }
+    
+
+    .habilidades h1{
+        left: 5%;
+        font-size: 30px;
+    }
+
+    .span-2{
+        top: 80px;
+        right: 35px;
+        width: 300px;
+        height: 190px;
+    }
+
+    .principal video{
+        top: 65px;
+        width: 300px;
+        left: -300px;
+        z-index: 20;
+    }
+
+    .abilitys-box{
+        top: 230px;
+        width: 300px;
+        left: 1%;
+    }
+
+    .abilitys-box li img{
+        width: 70%;
+    }
+
+    .principal{
+        width: 416.9px;
+        height: 83em;
+    }
+
+    .span-1{
+        display: none;
+    }
+
+    .ball{
+        display: none;
+    }
+
+    .big{
+        top: -100em !important;
+    }
+
+    .description-hability{
+        left: -100px;
+        top: 380px;
+    }
+
+
+    .description-hability h2{
+      font-size: 16px;
+    }
+
+    .description-hability p{
+        width: 40%;
+        font-size: 12px;
+    }
+
+    .skins{
+        width: 380px;
+        top: 10px;
+    }
+
+    .skins .container-img{
+        margin-top: -30px;
+    }
+
+    .name_skin{
+        font-size: 30px;
+    }
+
+    .box{
+        top: 10em;
+        left: 10px;
+        width: 24.5em;
+        height: 100px;
+    }
+
+    .skins{
+        height: 300px;
+    }
+
+    .return{
+        top: 10px;
+        font-size: 7px;
+        width: 70px;
+        height: 10px;
+        text-align: center;
+        letter-spacing: 0.1rem;
+    }
+
+    .left, .rigth{
+        height: 300px;
+    }
+
+    .wave{
+        bottom: -1em;
+        width: 100vw;
+    }
+
+}
+
+
+@media (max-width: 380px) {
+    .principal video{
+        left: -330px;
+    }
+
+    .span-2{
+        top: 80px;
+        right: 15px;
+        width: 300px;
+        height: 190px;
+        z-index: 30;
+    }
+    
+    .abilitys-box{
+        left: -20px;
+    }
+
+    .about-champ{
+        height: 520px;
+    } 
+
+    .lore{
+        height: 290px;
+    }
+
+    .name_skin{
+        top: -100px;
+    }
+
+    .skins .container-img{
+        margin-top: -30px;
+    }
+
+    .principal{
+        height: 95em;
+    }
+
+    .champ-name{
+        margin-top: 50px;
+        margin-left: 20px;
+        font-size: 28px;
+    }
+
+    .principal-img{
+        left: -59px;
+        width: 350px;
+    }
+
+    .box{
+        top: 8em;
+        left: 9px;
+        width: 349px;
+    }
+
+    .return{
+        top: 10px;
+        font-size: 5px;
+        width: 70px;
+        height: 10px;
+        text-align: center;
+        letter-spacing: 0.1rem;
+    }
+
+    .left, .rigth{
+        height: 300px;
+    }
+
+    .skins{
+        width: 340px;
+    }
+
+    .wave{  
+        left: 1px;
+        bottom: -1em;
+        width: 366px;
+    }
+
+    .principal{
+        width: 366px;
+    }
+}

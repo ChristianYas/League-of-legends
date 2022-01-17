@@ -1,0 +1,430 @@
+.principal{
+    position: relative;
+    top: -15px;
+    left: -10px;
+    width: 100vw;
+    height: 110em;
+    background-color: #040a14;
+    font-family: "Beaufort for LOL", serif;
+}
+
+.principal-img{
+    margin: 70px 70px;
+}
+
+.champ-des,.champ-name{
+    color: white;
+    text-transform: uppercase;
+}
+
+.champ{
+    position: relative;
+    top: -300px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.champ-des{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Beaufort for LOL", serif;
+}
+
+.champ-name{
+    position: absolute;
+    z-index: 30;
+    font-size: 75px;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+    font-family: "Beaufort for LOL", serif;
+}
+
+.box{
+    position: absolute;
+    top: 33em;
+    left: 70px;
+    width: 89%;
+    height: 260px;
+    background: linear-gradient(180deg,#00000000,#00000041,#040a14);
+}   
+
+.about-champ{
+    position: relative;
+    z-index: 20;
+    width: 80%;
+    height: 330px;
+    border: 2px solid #504f4f;
+    border-top: none;
+    padding: 10px;
+    margin: -326px 120px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-champ::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 2px;
+    background-color: #504f4f;
+}
+
+.about-champ::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0    ;
+    width: 32%;
+    height: 2px;
+    background-color: #504f4f;
+}
+
+.rol{
+    width: 30%;
+    height: 20%;
+    padding: 10px;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rol img{
+    width: 50px;
+}
+
+.description .level{
+    margin-bottom: 30px;
+}
+
+.line{
+    width: 200px;
+    height: 2px;
+    background-color: #504f4f;
+    position: absolute;
+    left: 40%;
+    transform: rotate(90deg);
+}
+
+.box-rol{
+    width: 30%;
+    height: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-rol .rol-img{
+    margin-bottom: 25px;
+}
+
+.box-rol .tag, .color{
+    margin: 2px;
+    color: #D0A85C;
+}
+
+.description{
+    width: 30%;
+    height: 55px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 7px;
+}
+
+.lore{
+    position: absolute;
+    right: 2%;
+    width: 40%;
+    height: 50%;
+}
+
+
+.habilidades{
+    margin: 0px 50px;
+    width: 90vw;
+    height: 600px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    position: relative;
+    top: 25em;
+    left: -50px;
+}
+
+.habilidades h1{
+    font-size: 60px;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+    font-family: "Beaufort for LOL", serif;
+    text-transform: uppercase;
+    position: relative;
+    top: -5%;
+    left: 27%;
+}
+
+.habilidades ul{
+    list-style: none;
+}
+
+.abilitys-box li{
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.abilitys-box{
+    width: 505px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    left: 14%;
+}
+
+.ball{
+    position: absolute;
+    left: 8%;
+    top: 41.4%;
+    width: 37%;
+    height: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ball li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #504f4f;
+}
+
+.abilitys-box li:hover{
+    transform: translateY(-5px);
+}
+
+.span-1{
+    width: 62%;
+    height: 3px;
+    background-color: #504f4f;
+    position: absolute;
+    top: 45%;
+    left: -10px;
+}
+
+.span-2{
+    width: 470px;
+    height: 360px;
+    border: 1px solid #504f4f;
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    z-index: 20;
+}
+
+.description-hability{
+    width: 731.2px;
+    height: 146.88px;
+    position: absolute;
+    top: 350px;
+}
+
+.description-hability h2{
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-left: 20%;
+}
+
+.description-hability p{
+    width: 50%;
+    font-size: 14px;
+    letter-spacing: 0.1rem;
+    margin-left: 20%;
+}
+
+.principal video{
+    position: relative;
+    top: 100px;
+    left: 190px;
+}
+
+.ball-big{
+    position: absolute;
+    top: 42%;
+    left: 8.3%;
+    z-index: 30;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 37%;
+    height: 10px;
+}
+
+.big div{
+    width: 20px;
+    height: 20px;
+    background-color: #D0A85C;
+    border-radius: 50%;
+    position: relative;
+}
+
+.big div::after{
+    content: '';
+    position: absolute;
+    left: -7px;
+    bottom: 24px;
+    height: 5px;
+    width: 35px;
+    background-color: #D0A85C;
+    transform: rotate(90deg);
+}
+
+.big{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #D0A85C;
+    text-align: center;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    display: none;
+    z-index: 30;
+}
+
+#P, #Q, #W, #E, #R{
+    top: 42.4%;
+}
+
+#P{
+    left: 14%;
+}
+
+#Q{
+    left: 21.2%;
+}
+
+#W{
+    left: 28.6%;
+}
+
+#E{
+    left: 35.9%;
+}
+
+#R{
+    left: 43.7%;
+}
+
+
+.return{
+    position: absolute;
+    top: 45px;
+    right: 45px;
+    border: 1px solid #08D7f7;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: "Beaufort for LOL", serif;
+    font-size: 10px;
+    letter-spacing: 0.2rem;
+}
+
+.return:hover{
+    border: 1px solid #69c3d1;
+}
+
+
+
+
+
+.skins{
+    width: 97vw;
+    height: 50em;
+    position: relative;
+    top: -5em;
+}
+
+.container-skins{
+    margin: 100px auto;
+    width: 90%;
+    height: 78%;
+    position: relative;
+}
+
+.rigth, .left{
+    width: 30%;
+    height: 43.9em;
+    background-color: #00000000;
+    transition: 1s ease;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    z-index: 30;
+}
+
+.rigth{
+    right: 0;
+}
+
+.left{
+    left: 0;
+}
+
+.container-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 30px;
+}
+
+.container-img img{
+    position: absolute;
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 10px 20px 10px 10px #00000037;
+    border: 1px solid white;
+}
+
+.name_skin{
+    width: 99.8%;
+    height: 10%;
+    font-family: "Beaufort for LOL", serif;
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+    color: black;
+    position: relative;
+    z-index: 30;
+    top: -80px;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+}
+
+.wave{
+    position: absolute;
+    bottom: -7em;
+    transform: rotate(2deg);
+}
